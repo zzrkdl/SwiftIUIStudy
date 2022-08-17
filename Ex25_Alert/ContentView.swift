@@ -28,7 +28,7 @@ struct ContentView: View {
             }
             .alert(isPresented: $showingAlert2) {
                 Alert(title: Text("Title"),
-                      message: Text("알럿메시지입니다."),
+                      message: Text("알럿메시지입니다.test"),
                       primaryButton: .destructive(Text("확인"),action: {
                         print("OK tapped")
                       }),
